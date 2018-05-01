@@ -96,3 +96,15 @@ def main():
 
 if __name__ == '__main__':
 	main()
+	
+#	Works Cited
+#	Meyers, Adam and Chris Clark. The large majority of this file is taken from the vtlite.py file from their VirusTotal_API_Tool repository.
+#	Lines 9-77, 79-87, and 91-98 are unmodified from the original vtlite.py file. These were retained to maintain basic functionality of 
+#	generating MD5 hashes for individual files and running them through the VirusTotal API. The additional optional arguments were also retained
+#	as the user will still be allowed to specify the degree of detail in the returned reports for all files. The source repository can be found at
+#	https://github.com/Xen0ph0n/VirusTotal_API_Tool. West Point, NY. 29 APR 2018.
+
+#	DiveIntoPython. I used the code present on this website to find the path name and absolute path names of files. This can be seen in lines 8, 89,
+#	90, and 91. I imported os, called for the directory path portion of the file within the Directory, and then called for the absolute path of that 
+#	directory path portion. This absolute path of the file would then be used as input in the checkMD5 function. The borrowed code can be found at
+#	http://www.diveintopython.net/functional_programming/finding_the_path.html within the codeblock of Example 16.3. West Point, NY. 29 APR 2018.
